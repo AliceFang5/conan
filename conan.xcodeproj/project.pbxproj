@@ -13,6 +13,12 @@
 		6444221524D05C60002527E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6444221324D05C60002527E9 /* Main.storyboard */; };
 		6444221724D05C62002527E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6444221624D05C62002527E9 /* Assets.xcassets */; };
 		6444221A24D05C62002527E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6444221824D05C62002527E9 /* LaunchScreen.storyboard */; };
+		6444222224D05EC6002527E9 /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6444222124D05EC6002527E9 /* SharpImageView.swift */; };
+		6467DA8124DA8BAA00A54BC3 /* SnowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467DA8024DA8BAA00A54BC3 /* SnowViewController.swift */; };
+		6467DA8324DA96F200A54BC3 /* MySnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6467DA8224DA96F200A54BC3 /* MySnowParticle.sks */; };
+		6467DA8B24DAA02F00A54BC3 /* MyMagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6467DA8A24DAA02F00A54BC3 /* MyMagicParticle.sks */; };
+		6467DA8F24DAA2A600A54BC3 /* MagicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467DA8E24DAA2A600A54BC3 /* MagicViewController.swift */; };
+		6467DA9324DAB3FD00A54BC3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467DA9224DAB3FD00A54BC3 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		6444221624D05C62002527E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6444221924D05C62002527E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6444221B24D05C62002527E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6444222124D05EC6002527E9 /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
+		6467DA8024DA8BAA00A54BC3 /* SnowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowViewController.swift; sourceTree = "<group>"; };
+		6467DA8224DA96F200A54BC3 /* MySnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MySnowParticle.sks; sourceTree = "<group>"; };
+		6467DA8A24DAA02F00A54BC3 /* MyMagicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyMagicParticle.sks; sourceTree = "<group>"; };
+		6467DA8E24DAA2A600A54BC3 /* MagicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicViewController.swift; sourceTree = "<group>"; };
+		6467DA9224DAB3FD00A54BC3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +71,14 @@
 				6444220D24D05C60002527E9 /* AppDelegate.swift */,
 				6444220F24D05C60002527E9 /* SceneDelegate.swift */,
 				6444221124D05C60002527E9 /* ViewController.swift */,
+				6467DA9224DAB3FD00A54BC3 /* FirstViewController.swift */,
 				6444221324D05C60002527E9 /* Main.storyboard */,
+				6467DA8224DA96F200A54BC3 /* MySnowParticle.sks */,
+				6467DA8024DA8BAA00A54BC3 /* SnowViewController.swift */,
+				6467DA8E24DAA2A600A54BC3 /* MagicViewController.swift */,
+				6444222124D05EC6002527E9 /* SharpImageView.swift */,
 				6444221624D05C62002527E9 /* Assets.xcassets */,
+				6467DA8A24DAA02F00A54BC3 /* MyMagicParticle.sks */,
 				6444221824D05C62002527E9 /* LaunchScreen.storyboard */,
 				6444221B24D05C62002527E9 /* Info.plist */,
 			);
@@ -126,6 +144,8 @@
 			files = (
 				6444221A24D05C62002527E9 /* LaunchScreen.storyboard in Resources */,
 				6444221724D05C62002527E9 /* Assets.xcassets in Resources */,
+				6467DA8324DA96F200A54BC3 /* MySnowParticle.sks in Resources */,
+				6467DA8B24DAA02F00A54BC3 /* MyMagicParticle.sks in Resources */,
 				6444221524D05C60002527E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +160,10 @@
 				6444221224D05C60002527E9 /* ViewController.swift in Sources */,
 				6444220E24D05C60002527E9 /* AppDelegate.swift in Sources */,
 				6444221024D05C60002527E9 /* SceneDelegate.swift in Sources */,
+				6444222224D05EC6002527E9 /* SharpImageView.swift in Sources */,
+				6467DA8F24DAA2A600A54BC3 /* MagicViewController.swift in Sources */,
+				6467DA8124DA8BAA00A54BC3 /* SnowViewController.swift in Sources */,
+				6467DA9324DAB3FD00A54BC3 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
